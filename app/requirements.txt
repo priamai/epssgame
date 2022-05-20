@@ -1,0 +1,4 @@
+nvdlib
+dash
+pandas
+dash-bootstrap-components
