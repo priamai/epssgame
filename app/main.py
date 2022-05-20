@@ -10,8 +10,7 @@ import numpy as np
 import nvdlib
 from dash.exceptions import PreventUpdate
 import random
-
-NVD_API_KEY = 'aae18486-d625-4b79-a2a1-883f59f3b7d6'
+from config import NVD_API_KEY
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
